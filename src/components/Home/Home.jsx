@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
         <Container className='home' maxWidth={false} style={{ background: '#FFF6EF'}}>
-        <Box sx={{ height: '88vh'}} className='home-intro'>
+        <Box sx={{ height: '90vh'}} className='home-intro'>
             <img src={CartoonSelf} alt="" width='400' height='400' />
             <h1> Hi! I'm Jordin Huang </h1>
             <p>A Software Engineer, Bostonian, Studio Ghibli Fan</p> 

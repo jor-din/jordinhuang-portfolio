@@ -67,26 +67,26 @@ const About = () => {
           justifyContent="center"
           className="about__interest"
         >
-          <Grid item xs={12} sm={12} md={6} >
+          <Grid item xs={12} sm={12} md={8} >
             <h2>Things That I Enjoy</h2>
-            <Paper sx={{ margin: 3 }} >
+            <Paper sx={{ margin: 3, padding: 3}} >
               <Typography textAlign='left'>
-                <strong>Travel: </strong>Recently I have fell into
+                <strong>✈️ Travel: </strong>During college, I would save up all my money and travel during winter breaks and spring breaks. After my first international trip, I discovered my love for exploring and embracing different cultures and understanding different perspectives in life. Since then I have found great travel buddies to share precious moments and hope to travel more soon.   
               </Typography>
             </Paper>
-            <Paper sx={{ margin: 3 }}>
+            <Paper sx={{ margin: 3, padding: 3 }}>
               <Typography textAlign='left'>
-                <strong>Food: </strong>Recently I have fell into
+                <strong>🥟 Food: </strong>Growing up, my parents have always told me food is one of life's greatest pleasures and stressed the importance of trying new foods. Now during the weekends, I love looking for new recipes to try out and share with family and friends. Recently I have been obsessed with using puff pastry to make tartlets and turnovers.    
               </Typography>
             </Paper>
-            <Paper sx={{ margin: 3 }}>
+            <Paper sx={{ margin: 3, padding: 3}}>
               <Typography textAlign='left'>
-                <strong>Houseplants: </strong>Recently I have fell into
+                <strong>🌱 Houseplants: </strong>The obsession began when I first purchased a parlor palm with my best friend. 
               </Typography>
             </Paper>
-            <Paper sx={{ margin: 3 }}>
+            <Paper sx={{ margin: 3, padding: 3 }}>
               <Typography textAlign='left'>
-                <strong>Mechanical Keyboards: </strong>Recently I have fell into
+                <strong>⌨️ Mechanical Keyboards: </strong>Recently I have fell into
               </Typography>
             </Paper>
           </Grid>

@@ -4,6 +4,7 @@ import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Link from '@mui/material/Link'
+import Resume from '../../Assets/Jordin Huang - SWE Resume (2).pdf'
 
 
 const NavBar = () => {
@@ -21,7 +22,7 @@ const NavBar = () => {
             <Link className='nav-link' underline="none" style={{color:'#8B72BE', fontSize: '1.5rem'}} href="/projects">
               Works
             </Link>
-            <Link className='nav-link' underline="none" style={{color:'#8B72BE', fontSize: '1.5rem'}} href="/resume">
+            <Link className='nav-link' underline="none" style={{color:'#8B72BE', fontSize: '1.5rem'}} href={Resume} target='_blank' rel='noopener noreferrer'>
               Resume
             </Link>
           </Toolbar>

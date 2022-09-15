@@ -9,7 +9,7 @@ import './Projects.css'
 
 const ProjectCard = (props) => {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 300 }}>
       <CardMedia
         component="img"
         height="140"

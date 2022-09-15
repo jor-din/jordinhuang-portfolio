@@ -11,15 +11,15 @@ code {
     monospace;
 }
 
-body::-webkit-scrollbar {
+*::-webkit-scrollbar {
   width: 15px;               /* width of the entire scrollbar */
 }
 
-body::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
   background: #FFE5CD;        /* color of the tracking area */
 }
 
-body::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
   background-color: #FFB2A9;    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
   border: 3px solid #FFE5CD;  /* creates padding around scroll thumb */

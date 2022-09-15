@@ -1,0 +1,12 @@
+
+
+.projects-title h2 {
+    font-size: 2rem;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+} 

@@ -4,6 +4,7 @@ import GradPic from '../../Assets/299093127_781934022864251_4775118655751300078_
 import { Container, Grid, Box, Paper, Typography } from "@mui/material";
 import InterestImg from "./InterestImg";
 import './About.css'
+import GreetTypewrite from "./GreetTypewrite";
 
 const About = () => {
   return (
@@ -29,10 +30,13 @@ const About = () => {
           justifyContent="center"
           className="about__who"
         >
-          <Grid item xs={12} sm={12} md={4} m={2}>
+          <Grid item xs={12} sm={12} md={12} m={2} className='greeting'>
+          <GreetTypewrite />
+          </Grid>
+          <Grid item xs={12} sm={12} md={12} m={2}>
             <img className='about-img' src={AboutImg} alt="img of jordin" height="400" />
           </Grid>
-          <Grid item xs={12} sm={12} md={4} m={2}>
+          <Grid item xs={12} sm={12} md={6} m={2}>
             <h2 style={{fontSize: '2rem', color:'#BEB4DA'}}>Who am I?</h2>
             <p style={{fontSize: '1.1rem', textAlign: 'left', letterSpacing: '1.2'}}>
               I am a software engineer with a strong background in JavaScript, React, and a passion for web development. My focus as a
@@ -52,8 +56,8 @@ const About = () => {
           justifyContent="center"
           className="about__why"
         >
-          <Grid item xs={12} sm={12} md={4} m={2}>
-            <h2 style={{fontSize: '2rem', color:'#BEB4DA'}}>Why Software Engineer?</h2>
+          <Grid item xs={12} sm={12} md={6} m={2}>
+            <h2 style={{fontSize: '2rem', color:'#BEB4DA', margin:'2px'}}>Why Software Engineer?</h2>
             <p style={{fontSize: '1.1rem', textAlign: 'left', letterSpacing: '1.2'}}>
               Before I found my interest in software engineering, I was a health
               science major at Boston University on track to becoming a nurse.
@@ -76,7 +80,7 @@ const About = () => {
               growing as an engineer.
             </p>
           </Grid>
-          <Grid item xs={12} sm={12} md={4} m={2} >
+          <Grid item xs={12} sm={12} md={12} m={2} >
             <img className='about-img' src={GradPic} alt="img of jordin" height="400"  />
           </Grid>
         </Grid>

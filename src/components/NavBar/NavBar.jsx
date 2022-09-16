@@ -11,7 +11,7 @@ const NavBar = () => {
     <header className="navbar">
       <Box sx={{ flexGrow: 1}}>
         <AppBar position="static" style={{background: '#FFF8F1', height: '7vh'}} >
-          <Toolbar className="nav-buttons">            
+          <Toolbar variant='dense' className="nav-buttons">            
             <Link className='nav-link' underline="none" style={{color:'#8B72BE', fontSize: '1.5rem'}} href="/">
               Home
             </Link>

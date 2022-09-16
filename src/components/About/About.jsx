@@ -26,15 +26,14 @@ const About = () => {
             <img src={AboutImg} alt="img of jordin" height="400" />
           </Grid>
           <Grid item xs={12} sm={12} md={4}>
-            <h2>Who am I?</h2>
-            <p>
-              I am a software engineer with a strong background in JavaScript
-              and React, and a passion for web development. My focus as a
+            <h2 style={{fontSize: '2rem'}}>Who am I?</h2>
+            <p style={{fontSize: '1.3rem', textAlign: 'left', letterSpacing: '1.2'}}>
+              I am a software engineer with a strong background in JavaScript, React, and a passion for web development. My focus as a
               software engineer is to make websites more accessible for
               consumers and improve valuable web traffic for businesses.
             </p>
 
-            <p>
+            <p style={{fontSize: '1.3rem', textAlign: 'left', letterSpacing: '1.2'}}>
               As a software engineer, my goal to become a mentor to high students who are low-income first-gen students to help and inspire them to find their passion in STEM field.    
             </p>
           </Grid>
@@ -47,8 +46,8 @@ const About = () => {
           className="about__why"
         >
           <Grid item xs={12} sm={12} md={4}>
-            <h2>Why Software Engineer?</h2>
-            <p>
+            <h2 style={{fontSize: '2rem'}}>Why Software Engineer?</h2>
+            <p style={{fontSize: '1.3rem', textAlign: 'left', letterSpacing: '1.2'}}>
               Before I found my interest in software engineering, I was a health
               science major at Boston University on track to becoming a nurse.
               During my last semester of Senior, I decided to take 'CS111:
@@ -58,7 +57,7 @@ const About = () => {
               leave the healthcare path.
             </p>
 
-            <p>
+            <p style={{fontSize: '1.3rem', textAlign: 'left'}}>
               Since then, I have tried every route to becoming a software
               engineer. Ranging from Udemy courses, Youtube, and even attending
               a semester at Oregon State University. I realized I needed an

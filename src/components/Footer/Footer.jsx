@@ -33,7 +33,7 @@ const Footer = props => {
               </Box>
             </Grid>              
           </Grid>
-          <Box textAlign="center" pt={{ xs: 5, sm: 5 }} pb={{ xs: 5, sm: 0 }}>
+          <Box textAlign="center" pt={{ xs: 3, sm: 1}} pb={{ xs: 3, sm: 0 }}>
             Made By Jordin &reg; {new Date().getFullYear()}
           </Box>
         </Container>

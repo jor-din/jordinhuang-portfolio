@@ -1,17 +1,24 @@
 import React from "react";
-import AboutImg from "../../Assets/306532243_757755798654313_1945931525159402282_n.jpg";
+import AboutImg from "../../Assets/286107179_3350553485166661_6216689326443701167_n.png";
+import GradPic from '../../Assets/299093127_781934022864251_4775118655751300078_n.jpg'
 import { Container, Grid, Box, Paper, Typography } from "@mui/material";
 import InterestImg from "./InterestImg";
+import './About.css'
 
 const About = () => {
   return (
     <Container
       maxWidth={false}
       className="about"
+      spacing={0}
+  direction="column"
+  alignItems="center"
+  justifyContent="center"
       style={{
         background:
           "linear-gradient(to bottom, #fff8f1, #fff9f7, #fffbfc, #fffdff, #ffffff)",
         overflow: "auto",
+        
       }}
     >
       <Box sx={{ flexGrow: 1 }}>
@@ -22,18 +29,18 @@ const About = () => {
           justifyContent="center"
           className="about__who"
         >
-          <Grid item xs={12} sm={12} md={4}>
-            <img src={AboutImg} alt="img of jordin" height="400" />
+          <Grid item xs={12} sm={12} md={4} m={2}>
+            <img className='about-img' src={AboutImg} alt="img of jordin" height="400" />
           </Grid>
-          <Grid item xs={12} sm={12} md={4}>
-            <h2 style={{fontSize: '2rem'}}>Who am I?</h2>
-            <p style={{fontSize: '1.3rem', textAlign: 'left', letterSpacing: '1.2'}}>
+          <Grid item xs={12} sm={12} md={4} m={2}>
+            <h2 style={{fontSize: '2rem', color:'#BEB4DA'}}>Who am I?</h2>
+            <p style={{fontSize: '1.1rem', textAlign: 'left', letterSpacing: '1.2'}}>
               I am a software engineer with a strong background in JavaScript, React, and a passion for web development. My focus as a
               software engineer is to make websites more accessible for
               consumers and improve valuable web traffic for businesses.
             </p>
 
-            <p style={{fontSize: '1.3rem', textAlign: 'left', letterSpacing: '1.2'}}>
+            <p style={{fontSize: '1.1rem', textAlign: 'left', letterSpacing: '1.2'}}>
               As a software engineer, my goal to become a mentor to high students who are low-income first-gen students to help and inspire them to find their passion in STEM field.    
             </p>
           </Grid>
@@ -45,9 +52,9 @@ const About = () => {
           justifyContent="center"
           className="about__why"
         >
-          <Grid item xs={12} sm={12} md={4}>
-            <h2 style={{fontSize: '2rem'}}>Why Software Engineer?</h2>
-            <p style={{fontSize: '1.3rem', textAlign: 'left', letterSpacing: '1.2'}}>
+          <Grid item xs={12} sm={12} md={4} m={2}>
+            <h2 style={{fontSize: '2rem', color:'#BEB4DA'}}>Why Software Engineer?</h2>
+            <p style={{fontSize: '1.1rem', textAlign: 'left', letterSpacing: '1.2'}}>
               Before I found my interest in software engineering, I was a health
               science major at Boston University on track to becoming a nurse.
               During my last semester of Senior, I decided to take 'CS111:
@@ -57,7 +64,7 @@ const About = () => {
               leave the healthcare path.
             </p>
 
-            <p style={{fontSize: '1.3rem', textAlign: 'left'}}>
+            <p style={{fontSize: '1.1rem', textAlign: 'left'}}>
               Since then, I have tried every route to becoming a software
               engineer. Ranging from Udemy courses, Youtube, and even attending
               a semester at Oregon State University. I realized I needed an
@@ -69,8 +76,8 @@ const About = () => {
               growing as an engineer.
             </p>
           </Grid>
-          <Grid item xs={12} sm={12} md={4}>
-            <img src={AboutImg} alt="img of jordin" height="400" />
+          <Grid item xs={12} sm={12} md={4} m={2} >
+            <img className='about-img' src={GradPic} alt="img of jordin" height="400"  />
           </Grid>
         </Grid>
         <Grid
@@ -81,9 +88,9 @@ const About = () => {
           className="about__interest"
         >
           <Grid item xs={12} sm={12} md={8}>
-            <h2>Things That I Enjoy</h2>
+            <h2 style={{fontSize: '2rem', color:'#BEB4DA'}}>Things That I Enjoy</h2>
             <Paper sx={{ margin: 3, padding: 3 }}>
-              <Typography textAlign="left">
+              <Typography textAlign="left" >
                 <strong>✈️ Travel: </strong>During college, I would save up all
                 my money and travel during winter breaks and spring breaks.
                 After my first international trip, I discovered my love for

@@ -1,7 +1,7 @@
 
 
 .projects-title h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .project-cards {
@@ -10,4 +10,11 @@
     gap: 1rem;
     flex-wrap: wrap;
     padding: 1rem;
+    font-family: 'Poppins', sans-serif;
 } 
+
+.projects-button__actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

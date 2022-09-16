@@ -20,7 +20,7 @@ const GreetTypewrite = () => {
           'こんにちは!', 
           'Welcome!'
         ]}
-        multiTextDelay={100}
+        multiTextDelay={600}
         typeSpeed={300}
       />
   )

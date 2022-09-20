@@ -5,8 +5,8 @@ import { Container, Box, Link, Grid } from '@mui/material'
 
 const Footer = props => {
   return (
-    <Box>
-       <Container maxWidth={false} style={{background: '#FFF8F1', position:'absolute'}}>
+    <Box >
+       <Container className='footer' maxWidth={false} style={{background: '#FFF8F1', position:'absolute'}}>
           <Grid container spacing={5}>
             <Grid item xs={12} sm={3}>
               <Box borderBottom={1} pt={3}>Sitemap</Box>

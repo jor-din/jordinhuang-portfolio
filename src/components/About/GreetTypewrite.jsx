@@ -15,7 +15,7 @@ const GreetTypewrite = () => {
         cursorColor="#789789"
         multiText={[
           'Hello!',
-          '你好！',
+          '你好!',
           'Bonjour!',
           'こんにちは!', 
           'Welcome!'
